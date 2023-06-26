@@ -1,8 +1,11 @@
-# How-to-customize-the-axis-grid-line-for-.NET-MAUI-Chart-SfCartesianChart
-This article in the Syncfusion Knowledge Base explains how to customize the axis grid line in .NET MAUI platform.
-```
-##[Xaml]
-<ContentPage.BindingContext>
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grid_line_customize.MainPage"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+              xmlns:model="clr-namespace:Grid_line_customize">
+
+    <ContentPage.BindingContext>
         <model:ViewModel x:Name="ViewModelName"></model:ViewModel>
     </ContentPage.BindingContext>
 
@@ -48,44 +51,7 @@ This article in the Syncfusion Knowledge Base explains how to customize the axis
                             XBindingPath="Month" 
                             YBindingPath="Temperature"
                             StrokeWidth="2"/>
-
-
+        
     </chart:SfCartesianChart>
-```
-```
-##[C#]
-SfCartesianChart chart = new SfCartesianChart();
-        this.BindingContext = new ViewModel();
 
-        NumericalAxis primaryAxis = new NumericalAxis();
-        ChartLineStyle axisLineStyle = new ChartLineStyle();
-        axisLineStyle.Stroke = Colors.Blue;
-        axisLineStyle.StrokeWidth = 2;
-        axisLineStyle.StrokeDashArray = doubleCollection;
-        primaryAxis.MajorGridLineStyle = axisLineStyle;
-        chart.XAxes.Add(primaryAxis);
-
-        NumericalAxis secondaryAxis = new NumericalAxis() { MinorTicksPerInterval = 2 };
-        ChartLineStyle axisLineStyle = new ChartLineStyle();
-        axisLineStyle.Stroke = Colors.Green;
-        axisLineStyle.StrokeWidth = 1;
-        axisLineStyle.StrokeDashArray = 3,3;
-        secondaryAxis.MinorGridLineStyle = axisLineStyle;
-        chart.YAxes.Add(secondaryAxis);
-
-        SplineSeries series = new SplineSeries()
-        {
-            ItemsSource = (new ViewModel()).Data,
-            ShowMarkers = True,
-            XBindingPath = "Month",
-            YBindingPath = "Temperature"
-            StrokeWidth = 2
-        };
-    
-        chart.Series.Add(series);
-        this.Content = chart;
-```
-
-##Output
-
-<img width="952" alt="Screenshot 2023-06-20 145004" src="https://github.com/SyncfusionExamples/How-to-rotate-axis-labels-in-.NET-MAUI-Chart-SfCartesianChart/assets/126754274/9f4997a1-fca7-4e2f-b9ab-7bb516103c90">
+</ContentPage>
