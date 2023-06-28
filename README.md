@@ -13,7 +13,8 @@ The visibility of the major gridlines can be controlled using the ShowMajorGridL
         <chart:SfCartesianChart.YAxes>
             <chart:NumericalAxis ShowMajorGridLines="True">
                 <chart:NumericalAxis.MajorGridLineStyle>
-                    <chart:ChartLineStyle Stroke="Blue"									          StrokeWidth="2"/>     
+                    <chart:ChartLineStyle Stroke="Blue"									          
+                                          StrokeWidth="2"/>     
                 </chart:NumericalAxis.MajorGridLineStyle>
                        </chart:NumericalAxis>
        </chart:SfCartesianChart.YAxes>
