@@ -4,7 +4,6 @@ This article explains how to customize the axis grid line in .NET MAUI platform.
 The .NET MAUI Chart provides support to customize the axis grid lines with the help of the MajorGridLineStyle, MinorGridLineStyle, MajorTickStyle and MinorTickStyle properties of the chart axis. These properties provide options to change the width, style (such as dashes), and color of grid lines. 
 The visibility of the major gridlines can be controlled using the ShowMajorGridLines property. The default value of ShowMajorGridLines is true.
 
-
 **Step 1:** Customize the appearance of major gridlines using MajorGridLineStyle property in the ChartAxis.
 <br>
 **[XAML]**
