@@ -19,7 +19,7 @@
         </chart:SfCartesianChart.Resources>
 
         <chart:SfCartesianChart.XAxes>
-            <chart:CategoryAxis PlotOffsetEnd="20">
+            <chart:CategoryAxis PlotOffsetEnd="25">
                 <chart:CategoryAxis.Title>
                     <chart:ChartAxisTitle Text="Months" FontSize="20"/>
                 </chart:CategoryAxis.Title>
@@ -36,7 +36,7 @@
 
                 <chart:NumericalAxis.MajorGridLineStyle>
                     <chart:ChartLineStyle Stroke="Blue"
-									      StrokeWidth="2"/>
+                                          StrokeWidth="2"/>
                 </chart:NumericalAxis.MajorGridLineStyle>
                 <chart:NumericalAxis.Title>
                     <chart:ChartAxisTitle Text="Temperature (In Fahrenheit)" FontSize="20"/>
