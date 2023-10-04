@@ -16,7 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.gridlinecustomize</ApplicationId>
-		<ApplicationIdGuid>5ccb6240-78ea-4d67-9558-afa56bfde73e</ApplicationIdGuid>
+		<ApplicationIdGuid>3e075313-3367-4e3d-80cf-bfd6e25b1810</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -50,10 +50,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\..\..\maui-charts-development\maui-charts-development\maui\src\charts\Syncfusion.Maui.Charts.csproj" />
+		<PackageReference Include="Syncfusion.Maui.Charts" Version="23.1.39" />
 	</ItemGroup>
 
 </Project>
