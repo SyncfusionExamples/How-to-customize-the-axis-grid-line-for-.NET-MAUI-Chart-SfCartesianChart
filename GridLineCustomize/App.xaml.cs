@@ -1,11 +1,12 @@
-﻿namespace GridLineCustomize;
-
-public partial class App : Application
+﻿namespace GridLineCustomize
 {
-	public App()
-	{
-		InitializeComponent();
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+            MainPage = new AppShell();
+        }
+    }
 }
