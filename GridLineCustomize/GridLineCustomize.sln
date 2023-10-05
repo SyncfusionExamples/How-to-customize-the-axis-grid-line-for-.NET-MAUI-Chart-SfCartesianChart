@@ -5,8 +5,6 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GridLineCustomize", "GridLineCustomize.csproj", "{06E604A7-62E0-4C05-94A4-EDF1902150ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Syncfusion.Maui.Charts", "..\..\..\maui-charts-development\maui-charts-development\maui\src\charts\Syncfusion.Maui.Charts.csproj", "{C6AE6448-1F92-491A-8246-9CCC06C58D80}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +21,6 @@ Global
 		{06E604A7-62E0-4C05-94A4-EDF1902150ED}.Release-Xml|Any CPU.ActiveCfg = Release|Any CPU
 		{06E604A7-62E0-4C05-94A4-EDF1902150ED}.Release-Xml|Any CPU.Build.0 = Release|Any CPU
 		{06E604A7-62E0-4C05-94A4-EDF1902150ED}.Release-Xml|Any CPU.Deploy.0 = Release|Any CPU
-		{C6AE6448-1F92-491A-8246-9CCC06C58D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6AE6448-1F92-491A-8246-9CCC06C58D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6AE6448-1F92-491A-8246-9CCC06C58D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6AE6448-1F92-491A-8246-9CCC06C58D80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6AE6448-1F92-491A-8246-9CCC06C58D80}.Release-Xml|Any CPU.ActiveCfg = Release-Xml|Any CPU
-		{C6AE6448-1F92-491A-8246-9CCC06C58D80}.Release-Xml|Any CPU.Build.0 = Release-Xml|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
