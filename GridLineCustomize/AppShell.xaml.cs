@@ -1,9 +1,10 @@
-﻿namespace GridLineCustomize;
-
-public partial class AppShell : Shell
+﻿namespace GridLineCustomize
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }
